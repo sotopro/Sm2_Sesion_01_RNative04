@@ -46,3 +46,20 @@ console.log(fishString)
 console.log(shark.indexOf('hammerhead'));
 
 console.log(shark.lastIndexOf('hammerhead'));
+
+// // regular function
+// var example = function() {
+//     // code to execute
+// }
+
+// // arrow function
+// let example = () => {
+//     // code to execute
+// }
+
+
+// example();
+
+fish.forEach(individualFish => {
+    console.log(individualFish);
+})
